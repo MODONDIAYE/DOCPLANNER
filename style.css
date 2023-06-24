@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2? family=Pacifico&display=swap');
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 12%;
+    margin-top: 50px;
+    /* position: fixed; */
+}
+*{
+    font-family: 'Pacifico', cursive;
+}
+h2{
+    font-family: 'lob', sans-serif;
+}
+.ABOUT{
+    color: green;
+    margin-right: 15px;
+}
+
+.image1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.images{
+    margin-right: 145px;
+}
+body{
+    padding-top: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.ma-classe{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.CARRER{
+    color: #747474;
+    margin-right: 15px;
+}
+
+.departements{
+    color: #747474;
+    margin-right: 15px;
+}
+
+
+.logo_center{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+    margin-top: 50px;
+}
+
+.grid{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 47% 47%;   
+}
+
+.Grid{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 30% 30% 30%;   
+}
+.parent{
+    display: flex;
+    /*flex-wrap: wrap;
+    justify-content: space-around;
+    /*grid-template-columns: 20% 80%;
+    /* margin-left: auto; */
+    }
