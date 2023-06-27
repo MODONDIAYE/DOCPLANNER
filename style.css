@@ -26,10 +26,15 @@ h2{
 .images{
     margin-right: 145px;
 }
-body{
+/* .classe1 .classe2 .classe3 {
     padding-top: 0;
     margin-left: 20%;
     margin-right: 20%;
+} */
+body{
+    padding-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 h1{
     font-family: 'Roboto', sans-serif;
@@ -76,11 +81,141 @@ h1{
     display: grid;
     justify-content: space-around;
     grid-template-columns: 30% 30% 30%;   
+    
+}
+#medecins{
+    background-color: rgb(81, 73, 230);
+    color: white;
+    border-radius:10%;
+    /* margin-bottom: 60px; */
+    text-align: center;
+}
+#patient{
+    background-color: rgb(28, 202, 138);
+    color: white;
+    border-radius:10%;
+    /* margin-bottom: 60px; */
+    text-align: center;
+}
+#clinique{
+    background-color: rgb(42, 41, 41);
+    color: white;
+    border-radius:10%;
+    /* margin-bottom: 60px; */
+    text-align: center;
 }
 .parent{
-    display: flex;
-    /*flex-wrap: wrap;
+    margin-top: 5%;
+    display: grid;
     justify-content: space-around;
-    /*grid-template-columns: 20% 80%;
-    /* margin-left: auto; */
+    grid-template-columns: 20% 80%;
     }
+
+#titre{
+    display: flex;
+    margin-right: 30%;
+}
+#imagesillustration{
+    display: grid;
+    margin-top: 5%;
+}
+    #parents{
+        display: flex;
+        grid-template-columns: 30% 60%;
+    }
+    /* section 4 */
+.grid_container{
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: 30% 60%;
+    background-color: rgb(126, 220, 179);
+    /* margin; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.Section{
+    display: flex;
+    flex-direction: column;
+}
+
+.Section{
+    flex-direction: row;
+    background-color: #e5faf8;
+}
+.box{
+    background-color: #fff;
+    height: 250px;
+    width: 180px;
+    margin-top: 31%;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.PHOTO{
+    height: 500px;
+    width: 500px;
+    /* padding-top: 25%; */
+}
+
+.description{
+    /* font-size: ; */
+}
+.slogan{
+    text-align: center;
+    font-size: 2.2em;
+    color: rgb(7, 5, 5);
+}
+.box-2{
+   margin-left: 20%;
+    margin-top: 15%;
+}
+
+.texte{
+    font-size: .875em;
+}
+.TITREUN{
+    text-align: center;
+    color: #0a9587 ;
+}
+.paragraphe{
+    text-align: center;
+    color: #747474;
+}
+#partie_image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 15%;
+}
+.button{
+    margin: 10%;  
+    background-color: blue;
+    color: white;
+}
+.firstbutton{
+    margin:2%;
+    /* border: 5px; */
+    border: 1px  solid transparent;
+    
+    
+}
+.barça{
+    /* margin-bottom: 0.2em;
+    margin-top: 1%; */
+    border-radius: 5px;
+}
+.un{
+    /* margin: 0 10; */
+    /* font-size: 1.5em; */
+}
+.footer{
+    justify-content: center;
+    text-align: center;
+}
+.indication{
+    background-color: blue;
+    color: #fff;
+}
+
